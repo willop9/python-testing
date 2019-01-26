@@ -1,4 +1,4 @@
-#Python challenge to sort a numer array from smallest to largest
+#Python challenge to sort a number array from smallest to largest
 import random
 
 numbers = []

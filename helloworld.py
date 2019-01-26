@@ -1,3 +1,3 @@
 print("hello World, this is my first python program")
-name = "Will";
-print("hello " + name);
+name = "Will"
+print("hello " + name)
