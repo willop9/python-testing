@@ -10,7 +10,7 @@ class Point:
     def distFromOrgin(self):
         return m.sqrt((self.x ** 2) + (self.y ** 2))
 
-    def lengthToPoint(self, p):
+    def distToPoint(self, p):
         if(self.x < p.x):
             lx = p.x - self.x
         else:
@@ -38,8 +38,8 @@ distP = p.distFromOrgin()
 distQ = q.distFromOrgin()
 pString = str(p)
 qString = str(q)
-pLength = p.lengthToPoint(q)
-qLength = q.lengthToPoint(p)
+pLength = p.distToPoint(q)
+qLength = q.distToPoint(p)
 z = p.midpoint(q);
 print(p.x, p.y, q.x, q.y)
 print(distP, distQ)
