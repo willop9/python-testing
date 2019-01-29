@@ -21,6 +21,11 @@ class Point:
             ly = self.y - p.y
         return m.sqrt((lx ** 2) + (ly ** 2))
 
+    def midpoint(self, p):
+        mx = (self.x + p.x)/2
+        my = (self.y + p.y)/2
+        return Point(mx,my)
+
 
 print("hello World, this is my first python program")
 name = "Will"
