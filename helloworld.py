@@ -8,6 +8,9 @@ class Point:
 
     def distFromOrgin(self):
         return m.sqrt((self.x ** 2) + (self.y ** 2))
+    def __str__(self):
+        return "{0},{1}".format(self.x,self.y)
+
 
 print("hello World, this is my first python program")
 name = "Will"
