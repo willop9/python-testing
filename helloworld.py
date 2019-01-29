@@ -18,9 +18,12 @@ print("hello " + name)
 
 o = Point()
 p = Point(1,4)
-q = Point(4,9)
+q = Point(5,12)
 distP = p.distFromOrgin()
 distQ = q.distFromOrgin()
+pString = str(p)
+qString = str(q)
 
 print(p.x, p.y, q.x, q.y)
 print(distP, distQ)
+print(pString,qString)
