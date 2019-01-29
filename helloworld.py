@@ -40,8 +40,12 @@ pString = str(p)
 qString = str(q)
 pLength = p.lengthToPoint(q)
 qLength = q.lengthToPoint(p)
+z = p.midpoint(q);
 print(p.x, p.y, q.x, q.y)
 print(distP, distQ)
 print(pString,qString)
 #Should be the same output
 print(pLength, qLength)
+#Finds midpoint and uses previous string
+#method to correctly format the new point
+print(str(z))
